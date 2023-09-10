@@ -3,7 +3,7 @@ import numpy as np
 
 # Load the trained model
 with open('diabetes_model.pkl', 'rb') as model_file:
-    trained_model = pickle.load(model_file)
+    diabetes_model = pickle.load(model_file)
 
 st.title('Diabetes Detection Test')
 
